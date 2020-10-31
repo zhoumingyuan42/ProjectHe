@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.eadp_mu_xpl_text, .eadp_mu_xpl_text p, .project_footer p,
+.adp_mu_title2, .eadp_mu_xpl_text2, .welcome_name_text,
+.about_me_text, .adp_mu_title, .contact_info {
+  font-family: 'Playfair Display', serif;
+}
+
+.welcome_name_text, .about_me_text {
+  font-size: 70px;
+  font-weight: 100;
+  letter-spacing: .5rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: default;
+  color: inherit;
+}
+
+.center {
+  padding-top: 45vh;
+  text-align: center;
+  height: 25vh;
+}
+
+.projet_p_title_text, .projet_text, .contact_text {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 70px;
+  font-weight: 500;
+  letter-spacing: .5rem;
+}
+.contact_text{
+  margin-bottom: 50vh;
+}
+
+.index_body {
+  background-color: #e3e2de;
+  text-align: center;
+  -webkit-transition: 1s ease;
+  -moz-transition: 1s ease;
+  -ms-transition: 1s ease;
+  -o-transition: 1s ease;
+}
+
+.project_body, .about_body, .contact_body {
+  cursor: default;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.project_body, .nav_project {
+  background-color: #252c3a;
+}
+
+.contact_body, .nav_contact {
+  background-color: #62676d;
+}
+
+.welcome_name_text {
+  color: #15161a;
+}
+
+.projet_p_title_text, .projet_text {
+  color: #252c3a;
+}
+
+.about_me_text {
+  color: #51433a;
+}
+
+.contact_text, .nav_links a:hover {
+  color: #62676d;
+}
+
+.about_body .about_me_text, .projet_p_title_text, .click, .white {
+  color: #e3e2de;
+}
+
+h1.welcome_name_text::before {
+  content: 'He Yizhen';
+  animation: animate 1.5s;
+}
+
+/* css for projet page */
+.adp_mu_container {
+  width: 80%;
+  margin: auto;
+  padding-top: 18%;
+  text-align: center;
+}
+
+.adp_mu_title {
+  font-size: 70px;
+  color: #e3e2de;
+  writing-mode: vertical-rl;
+  display: inline-block;
+  transform: rotate(180deg);
+  position: relative;
+  top:100px;
+  z-index: 20;
+}
+
+.adp_mu_pic_1 {
+  width: 50%;
+  display: inline-block;
+  position: relative;
+  left: 20%;
+}
+
+.adp_mu_pic_2 {
+  width: 90%;
+  display: inline-block;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.adp_mu_pic_3 {
+  width: 60%;
+  display: inline-block;
+  position: relative;
+  margin-top: 10%;
+  right: 15%;
+}
+
+.adp_mu_pic_5 {
+  transform: rotate(90deg);
+  width: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.adp_mu_pic_6 {
+  width: 90%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20%;
+}
+
+.eadp_mu_xpl_text {
+  width: 20%;
+  text-align: left;
+  display: inline-block;
+  position: absolute;
+  left: 65%;
+  top: 15%;
+  z-index: 1;
+}
+
+/* projet page nav */
+.nav_project, .nav_about, .nav_contact {
+  position: fixed;
+  top: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1rem;
+  align-items: center;
+  min-height: 8vh;
+  color: #e3e2de;
+  transition: top 0.4s;
+  z-index: 10;
+  animation: profilFadeIn 1.5s;
+}
+
+.nav_about, .about_body {
+  background-color: #51433a;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.nav_links {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+
+.nav_links a {
+  color: #e3e2de;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.nav_links li {
+  list-style: none;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  background-color: #e3e2de;
+}
+
+.eadp_mu_xpl_text {
+  color: #e3e2de;
+  font-weight: 100;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+}
+
+.eadp_mu_xpl_text p {
+  color: #e3e2de;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: .05rem;
+}
+
+.project_footer {
+  height: 20vh;
+  padding-top: 4rem;
+}
+
+.project_footer p {
+  text-align: center;
+  color: #cecbc6;
+  font-size: 0.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.adp_mu_title2 {
+  font-size: 70px;
+  color: #e3e2de;
+  writing-mode: vertical-rl;
+  display: inline-block;
+  transform: rotate(180deg);
+  position: absolute;
+  left: 64%;
+  top: 43%;
+  z-index: 20;
+}
+
+.fn_pic {
+  width: 90%;
+  display: inline-block;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.eadp_mu_xpl_text2 {
+  width: 90%;
+  margin: auto;
+  color: #e3e2de;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  letter-spacing: .1rem;
+}
+
+.eadp_mu_xpl_text2 p {
+  margin-top: 30px;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+.profil_pic {
+  width: 30%;
+  position: absolute;
+  top: 45vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  animation: profilFadeIn 2s;
+}
+
+.ex_container {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#ex_pro {
+  padding: 10% 15%;
+  padding-bottom: 0;
+}
+
+#ex_pro h2, #ex_pro h3, #ex_pro h4 {
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 3px;
+  white-space: nowrap;
+  color: #e3e2de;
+  position: relative;
+}
+
+#ex_pro h3, #ex_pro h4 {
+  margin: 0;
+}
+
+#ex_pro span, .rise_dis {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.5px;
+}
+
+.ex_container p {
+  display: inline-block;
+  line-height: 3;
+}
+
+.ex_container {
+  margin-top: 10%;
+  margin-bottom: 20%;
+  display: grid;
+  grid-template-columns: 100%;
+  font-weight: 500;
+}
+
+.ex_container .work {
+  position: absolute;
+  left: 28%;
+}
+
+.ex_container .place {
+  position: absolute;
+  right: 15%;
+}
+
+.contact_info {
+  position: absolute;
+  left: 50%;
+  top: 50vh;
+  line-height: 2rem;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  visibility: hidden;
+  letter-spacing: 1px;
+  animation: profilFadeIn 1.5s 1s forwards;
+}
+
+.flou {
+  animation: flou 1s 0.5s forwards;
+}
+
+@keyframes animate {
+  0% {
+    content: 'He Yizhen';
+  }
+
+  25% {
+    content: 'Architecture';
+  }
+
+  50% {
+    content: 'Design';
+  }
+
+  75% {
+    content: 'Nature';
+  }
+
+  100% {
+    content: 'He Yizhen';
+  }
+}
+
+@keyframes profilFadeIn {
+  0% {
+    opacity: 0;
+    top: -10px;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes flou {
+  0% {}
+
+  100% {
+    color: transparent;
+    text-shadow: #e3e2de 0 0 10px;
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width:1360px){
+
+
+  .ex_container p,.ex_container .work,.ex_container .place {
+    position: static;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+.ex_container .work{
+  font-weight: 500;
+}
+  .ex_container .place{
+    margin-bottom: 2rem;
+  }
+
+@media screen and (max-width:1024px){
+.adp_mu_title2{
+  top:46%
+}
+.eadp_mu_xpl_text{
+  position: static;
+  display: block;
+  width: auto;
+  z-index: auto;
+  padding-left: 2rem;
+}
+.eadp_mu_xpl_text p{
+  visibility: hidden;
+}
+}
+
+@media screen and (max-width:768px){
+  .nav_links{
+    position: absolute;
+    right: 0px;
+    height: 20vh;
+    top:8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+  }
+  .nav_links li{
+    opacity: 1;
+  }
+  .burger{
+    display: block;
+  }
+}
+
+.nav-active{
+  transform: translateX(0%);
+}
+.line1-active, .line2-active, .line3-active{
+  transition: transform 0.5s ease-in-out;
+  transform-origin: left
+}
+.line1-active{
+  transform: rotate(35deg) ;
+}
+.line2-active{
+  visibility: hidden;}
+
+.line3-active{
+  transform: rotate(-35deg);
+}
