@@ -297,6 +297,7 @@ h1.welcome_name_text::before {
   white-space: nowrap;
   color: #e3e2de;
   position: relative;
+  overflow:hidden;
 }
 
 #ex_pro h3, #ex_pro h4 {
