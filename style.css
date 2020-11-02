@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+.mob-show{
+  display: none;
+}
 .eadp_mu_xpl_text, .eadp_mu_xpl_text p, .project_footer p,
 .adp_mu_title2, .eadp_mu_xpl_text2, .welcome_name_text,
 .about_me_text, .adp_mu_title, .contact_info {
@@ -222,8 +224,9 @@ h1.welcome_name_text::before {
 }
 
 .project_footer {
-  height: 20vh;
-  padding-top: 4rem;
+
+  height: 5vh;
+  padding-bottom: 1rem;
 }
 
 .project_footer p {
@@ -231,6 +234,8 @@ h1.welcome_name_text::before {
   color: #cecbc6;
   font-size: 0.5rem;
   letter-spacing: 0.05rem;
+  margin-top: 10%;
+  opacity: 0.5;
 }
 
 .adp_mu_title2 {
@@ -288,7 +293,7 @@ h1.welcome_name_text::before {
   padding-bottom: 0;
 }
 
-#ex_pro h2, #ex_pro h3, #ex_pro h4 {
+h2, #ex_pro h3, #ex_pro h4 {
   font-size: 3rem;
   font-style: italic;
   font-weight: 800;
@@ -354,7 +359,28 @@ h1.welcome_name_text::before {
   }
 
   25% {
-    content: 'Architecture';
+  content: 'Architecture';
+  }
+
+  50% {
+    content: 'Design';
+  }
+
+  75% {
+    content: 'Nature';
+  }
+
+  100% {
+    content: 'He Yizhen';
+  }
+}
+@keyframes animate-mob {
+  0% {
+    content: 'He Yizhen';
+  }
+
+  25% {
+  content: 'Archi tecture';
   }
 
   50% {
@@ -443,6 +469,43 @@ h1.welcome_name_text::before {
   .burger{
     display: block;
   }
+  .width-mobil{
+    width: 85%;
+    margin: auto;
+  }
+  h1.welcome_name_text::before {
+    content: 'He Yizhen';
+    animation: animate-mob 2s;
+  }
+  .mob-hide{
+  display: none;
+  }
+  .mob-show{
+    display:inline-block;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  .profil_pic{
+    width: 80%;
+  }
+  .place{
+    border-bottom: solid 1px #e3e2de;
+  }
+  .adp_mu_container{
+    padding-top: 20vh;
+  }
+  .mob-adp{
+    font-size: 2rem;
+    margin-bottom: 5%;
+  }
+  .adp_mu_container img{
+    width: 90%;
+    margin-top: 10%;
+    left:auto;
+    right:auto;
+  }
+
 }
 
 .nav-active{
