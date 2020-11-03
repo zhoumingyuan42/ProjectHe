@@ -103,7 +103,7 @@ h1.welcome_name_text::before {
   display: inline-block;
   transform: rotate(180deg);
   position: relative;
-  top:100px;
+  top:60px;
   z-index: 20;
 }
 
@@ -130,10 +130,10 @@ h1.welcome_name_text::before {
 }
 
 .adp_mu_pic_5 {
-  transform: rotate(90deg);
-  width: 50%;
+  width: 90%;
   display: inline-block;
   position: relative;
+  margin: 10% auto;
 }
 
 .adp_mu_pic_6 {
@@ -149,7 +149,7 @@ h1.welcome_name_text::before {
   display: inline-block;
   position: absolute;
   left: 65%;
-  top: 15%;
+  top: 19%;
   z-index: 1;
 }
 
@@ -484,13 +484,18 @@ h2, #ex_pro h3, #ex_pro h4 {
     display:inline-block;
   }
   h2{
-    font-size: 2rem;
+    font-size: 1.6rem;
+
   }
   .profil_pic{
     width: 80%;
   }
   .place{
+    padding-bottom: 10%;
     border-bottom: solid 1px #e3e2de;
+  }
+  .work{
+    margin:5% auto;
   }
   .adp_mu_container{
     padding-top: 20vh;
@@ -504,6 +509,13 @@ h2, #ex_pro h3, #ex_pro h4 {
     margin-top: 10%;
     left:auto;
     right:auto;
+  }
+  .about_body .about_me_text{
+    text-align: center;
+  }
+  .ex_container p{
+    line-height: 1.8;
+    font-weight: 100;
   }
 
 }
