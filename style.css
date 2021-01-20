@@ -90,7 +90,8 @@ div.center:nth-of-type(4){
 h1.welcome_name_text::before {
   content: 'He Yizhen';
   animation: animate 1.5s;
-  -webkit-animation : animate 1.5s;
+  -webkit-animation-name : animate;
+  -webkit-animation-duration :1.5s;
 }
 
 /* css for projet page */
