@@ -86,6 +86,7 @@ a {
 h1.welcome_name_text::before {
   content: 'He Yizhen';
   animation: animate 1.5s;
+  -webkit-animation : animate 1.5s;
 }
 
 /* css for projet page */
@@ -374,6 +375,29 @@ h2, #ex_pro h3, #ex_pro h4 {
     content: 'He Yizhen';
   }
 }
+
+@-webkit-keyframes animate {
+  0% {
+    content: 'He Yizhen';
+  }
+
+  25% {
+  content: 'Architecture';
+  }
+
+  50% {
+    content: 'Design';
+  }
+
+  75% {
+    content: 'Nature';
+  }
+
+  100% {
+    content: 'He Yizhen';
+  }
+}
+
 @keyframes animate-mob {
   0% {
     content: 'He Yizhen';
